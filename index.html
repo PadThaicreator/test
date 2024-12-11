@@ -29,6 +29,17 @@
         }
     </style>
     <link rel="stylesheet" href="style.css">
+
+
+    <script>
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+          e.preventDefault();
+          alert('Developer tools are disabled.');
+        }
+      });
+    </script>
+    
 </head>
 <body>
     <h1 style="color:blueviolet ;font-weight: bolder; font-size: 100px;">CSS Go Go</h1>
