@@ -1,0 +1,11 @@
+p#messages{
+    color: darkgoldenrod;
+    font-size: 50px;
+    background: lightgrey;
+}
+h1.title{
+    font-size: 100px;
+    color: darkorange;
+}
+
+/* link in index.html */
